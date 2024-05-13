@@ -1,0 +1,19 @@
+.underline_black {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.underline_black:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 2px;
+}
