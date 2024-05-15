@@ -10,11 +10,13 @@ class MailSendController extends Controller
 {
     public function index(){
 
-        $data = [];
+        return view('contacts.index');
 
-        Mail::send('contacts.index', $data, function($message){
-            $message->to('info@example.com', 'Test')
-            ->subject('This is a test mail');
-        });
+        // $data = [];
+
+        // Mail::send('contacts.index', $data, function($message){
+        //     $message->to('info@example.com', 'Test')
+        //     ->subject('This is a test mail');
+        // });
     }
 }
