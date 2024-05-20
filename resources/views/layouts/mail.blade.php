@@ -12,14 +12,6 @@
     <body>
     <header>
         <h1 class="h6 bg-success text-white py-2 ps-2 m-0">静岡県で少しでも多くの犬の命を救いたいです</h1>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/">ホーム</a></li>
-                <!-- <li class="nav-item"><a class="nav-link" href="#">お知らせ</a></li> -->
-                <li class="nav-item"><a class="nav-link" href="/terms-of-service">利用規約</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">お問い合わせ</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         @yield('content')

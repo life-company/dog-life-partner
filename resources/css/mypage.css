@@ -1,0 +1,42 @@
+.profile-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.profile-card .avatar {
+  width: 60px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.profile-card .name {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #ff0000;
+}
+
+.profile-card .role,
+.profile-card .user-id {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.profile-card .follow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.profile-card .follow div {
+  width: 45%;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+}
