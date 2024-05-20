@@ -15,8 +15,6 @@
     RewriteRule ^ %1 [L,R=301]
 
 
-    localhost/contact
-
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
