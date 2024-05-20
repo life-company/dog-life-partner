@@ -1,3 +1,9 @@
+@import url('mypage.css');
+
+body {
+  font-family: Arial, sans-serif;
+}
+
 .underline_black {
   position: relative;
   display: inline-block;
@@ -17,3 +23,4 @@
   background-color: black;
   border-radius: 2px;
 }
+

@@ -12,7 +12,7 @@ class DogController extends Controller
      */
     public function index()
     {
-        $dogs = Dog::all();
+        $dogs = Dog::paginate(10);
         return view('top',compact('dogs'));
     }
 
@@ -20,12 +20,6 @@ class DogController extends Controller
     {
         return view('term');
     }
-
-    public function contact()
-    {
-        return view('contacts.index');
-    }
-
 
     /**
      * Show the form for creating a new resource.
